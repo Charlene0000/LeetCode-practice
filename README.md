@@ -22,7 +22,7 @@
 
 ```text
 solutions/
-  0042-trapping-rain-water/
+  0011-container-with-most-water/
     solution.js       # 可运行实现（module.exports 导出）
     test_solution.js  # node:test + assert/strict
     notes.md          # 思路、复杂度、边界
@@ -40,13 +40,13 @@ progress.json          # 已完成题目清单
 ## 本地验证
 
 ```powershell
-node --test solutions/0042-trapping-rain-water/test_solution.js
+node --test --test-isolation=none solutions/0011-container-with-most-water/test_solution.js
 ```
 
 ## 每日自动化
 
 - 调度时间：每天 **20:00**（Asia/Shanghai）
-- 选题：`scripts/pick_problems.mjs` 从题库中依次选择 3 Medium + 2 Hard，跳过 `progress.json` 中已完成的题目；题库耗尽后自动从 LeetCode 题库补足。
+- 选题：`scripts/pick_problems.mjs` 从题库中选择 3 Medium + 2 Hard，优先覆盖不同 topic，跳过 `progress.json` 中已完成的题目；题库耗尽后自动从 LeetCode 题库补足。
 - 题面：`scripts/fetch_problem.mjs` 获取英文原题、示例和约束。
 - 发布：`scripts/publish.ps1` 提交并推送到 `https://github.com/Charlene0000/LeetCode-practice`。
 
@@ -58,5 +58,5 @@ node scripts/fetch_problem.mjs <slug>
 # 写代码 + 测试后
 node scripts/record_solution.mjs --id <id> --slug <slug> --title "<title>" --difficulty <Medium|Hard> --dir <dir>
 node scripts/render_readme.mjs
-pwsh -NoProfile -File scripts/publish.ps1 -Message "Daily practice: 5 problems"
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\publish.ps1 -Message "Daily practice: 5 problems"
 ```
