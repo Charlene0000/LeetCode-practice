@@ -5,7 +5,17 @@
 ## 最近进度
 
 <!-- STATS:START -->
-还没有记录，等待第一次自动刷题。
+- 累计完成：**5** 题（Medium 3 / Hard 2）
+- 打卡天数：**1** 天
+- 最近更新：2026-11-08
+
+| # | 题目 | 难度 | 完成日期 | 题解 |
+|---|------|------|----------|------|
+| 5 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | 2026-11-08 | [code](solutions/0051-n-queens/solution.js) |
+| 4 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | 2026-11-08 | [code](solutions/0124-binary-tree-maximum-path-sum/solution.js) |
+| 3 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | 2026-11-08 | [code](solutions/0019-remove-nth-node-from-end-of-list/solution.js) |
+| 2 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | 2026-11-08 | [code](solutions/0005-longest-palindromic-substring/solution.js) |
+| 1 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | 2026-11-08 | [code](solutions/0011-container-with-most-water/solution.js) |
 <!-- STATS:END -->
 
 ## 目录结构

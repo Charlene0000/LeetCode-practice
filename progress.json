@@ -1,3 +1,44 @@
 {
-  "solved": []
+  "solved": [
+    {
+      "id": "11",
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water",
+      "difficulty": "Medium",
+      "date": "2026-11-08",
+      "dir": "0011-container-with-most-water"
+    },
+    {
+      "id": "5",
+      "slug": "longest-palindromic-substring",
+      "title": "Longest Palindromic Substring",
+      "difficulty": "Medium",
+      "date": "2026-11-08",
+      "dir": "0005-longest-palindromic-substring"
+    },
+    {
+      "id": "19",
+      "slug": "remove-nth-node-from-end-of-list",
+      "title": "Remove Nth Node From End of List",
+      "difficulty": "Medium",
+      "date": "2026-11-08",
+      "dir": "0019-remove-nth-node-from-end-of-list"
+    },
+    {
+      "id": "124",
+      "slug": "binary-tree-maximum-path-sum",
+      "title": "Binary Tree Maximum Path Sum",
+      "difficulty": "Hard",
+      "date": "2026-11-08",
+      "dir": "0124-binary-tree-maximum-path-sum"
+    },
+    {
+      "id": "51",
+      "slug": "n-queens",
+      "title": "N-Queens",
+      "difficulty": "Hard",
+      "date": "2026-11-08",
+      "dir": "0051-n-queens"
+    }
+  ]
 }
